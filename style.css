@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(purple, yellow);
+    min-height: 100vh;
+    margin: 0;
+}
+#card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16em;
+    height: 720px;
+    width:1280px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    background-color: black;
+
+    
+}
+#pic{
+    margin-top: 7em;
+    margin-left: 10em;
+    border: 3px solid purple;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+    color: white;
+}
