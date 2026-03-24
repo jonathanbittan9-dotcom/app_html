@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(purple, yellow);
+    background: rgb(62, 62, 174);
     min-height: 100vh;
     margin: 0;
 }
@@ -12,16 +12,27 @@ body{
     border: 2px solid black;
     box-shadow: 2px 2px 2px black;
     background-color: black;
-
-    
+    display: flex;
+    align-items: flex-start;
 }
 #pic{
-    margin-top: 7em;
-    margin-left: 10em;
+    margin-top: 112px;
+    margin-left: 160px;
     border: 3px solid purple;
     border-radius: 50%;
-    width: 10em;
-    height: 10em;
+    width: 120px;
+    height: 120px;
+    padding: 5%;
     text-align: center;
-    color: white;
+    line-height: 120px;
+    font-size: 5em;
+    color: black;
+    background: linear-gradient(orange , yellow);
+}
+#state{
+    background-color: lightblue;
+    margin-top: 112px;
+    margin-left: 60px;
+    width:700px;
+    height: 400px;
 }
