@@ -36,6 +36,22 @@ body{
     width:700px;
     height: 400px;
     text-align: center;
-    
-    
+    font-size: 4em;
+}
+#state{
+    position: relative;
+}
+#score{
+    position: absolute;
+    top: 89px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid black;
+    box-shadow: 2px 2px 4px black;
+    background: linear-gradient(orange , yellow);
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 0.4em;
+    width: 600px;
 }
