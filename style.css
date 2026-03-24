@@ -14,6 +14,7 @@ body{
     background-color: black;
     display: flex;
     align-items: flex-start;
+    border-radius: 3%;
 }
 #pic{
     margin-top: 112px;
@@ -37,6 +38,7 @@ body{
     height: 400px;
     text-align: center;
     font-size: 4em;
+    border-radius: 3%;
 }
 #state{
     position: relative;
@@ -54,4 +56,16 @@ body{
     padding: 10px 30px;
     font-size: 0.4em;
     width: 600px;
+}
+#time{
+    position: relative;
+    border: 3px solid black;
+    font-size: 0.4em;
+    top: 100px;
+    left:2.6%;
+    border-radius: 3px;
+    background: linear-gradient(orange , yellow);
+    box-shadow: 2px 2px 4px black;
+    width: 600px;
+    padding:10px 30px;
 }
